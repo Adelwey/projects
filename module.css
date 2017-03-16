@@ -1,0 +1,38 @@
+* {box-sizing:border-box;}
+h1{text-align: center;}
+section {height: 20px; 
+		width:70px; 
+		border: 1px solid black;
+		text-align: center;	
+		top: -1px;
+		right: -1px;
+		position: absolute;}
+div{width: 30%;
+ float: left; 
+ text-align:left;
+ border: 2px solid black;
+ margin-left: 25px;
+ padding : 30px 10px 10px 10px;
+ position: relative;
+ background-color: grey;}
+#one{background-color: skyblue;}
+#two{background-color: pink;}
+#three{background-color: purple;
+	   color: white;}
+/**********************large devices******************/
+@media (min-width: 992px){
+	span{display: none;}
+}
+/*******************medium size devices***************/
+@media (min-width: 768px) and (max-width: 991px){
+	div{margin-top: 10px;margin-left: 10px;}
+	#first{width: 48.1%}
+	#second{width: 48.1%;margin-right:5px;float: left;}
+	#third{width: 97.4%; margin-right:10px;}
+}
+/***************small devices******************/
+@media(max-width:767px){
+	div{width: 97.4%;
+		margin:10px;}
+	span{display: none;}
+}
