@@ -1,0 +1,19 @@
+.body{
+	background-color: #ccccff;
+	padding-left: 10px;
+}
+.navbar-brand{
+	position: absolute;
+	top: -25px;
+}
+#header-nav{
+	background-color: #ccccff;
+}
+#top, #P1, #P2, #P3{
+	color: gray;
+}
+.text-center{color: gray;}
+#top a:hover{
+	text-decoration: none;
+}
+
